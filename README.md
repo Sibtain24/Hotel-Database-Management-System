@@ -1,5 +1,5 @@
 # Hotel-Management-System
-Author-Sibtain Raza
+Program developed by - Sibtain Raza
 
 If you want to use our project, then first all you need is to follow the following steps:
 
