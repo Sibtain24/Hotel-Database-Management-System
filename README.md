@@ -7,18 +7,19 @@ This is a program made using Python and MySQL to manage the data of Customers Ch
 
 # Instructions to use this Program or Application
 
-1) First create a database in mySQL with name - "hotel_dbms". Copy and Paste this: `create database hotel_dbms`
+1) First of all make sure you have both Python and MySQL installed in your Computer. (Both applications can be downloaded from their respective Official Websites)
+   
+2) Then, open your MySQL Command Line Application and create a database in mySQL with name - "hotel_dbms". Or Copy and Paste this: `create database hotel_dbms`
 
-2) Then using hotel_dbms create a table - " info " with the following fieldnames:
-  GuestNo, GuestName, Age, Gender, Address, ContactNo, RoomNo, CheckinDate and CheckoutDate.
-  [Note: The spellings of all the field names are case-sensitive] <br> OR <br>
-  Copy and Paste the following text after creating the database: <br>
+3) Then, Copy and Paste this: `use hotel_dbms`
+
+4) After that, Copy and Paste the following text: <br>
   `create table info (GuestNo integer(4), GuestName varchar(30), Age integer(3), Gender varchar(6), Address varchar(80), ContactNo bigint(10), RoomNo integer(4), CheckinDate date, CheckoutDate date);`
 
-4) Find the following line in main.py file and change the Username (user) and Password (passwd) to your MySQL Client app username & password:<br>
+5) Find the following line in 'main.py' file and change the Username (user) and Password (passwd) to your MySQL Client app username & password:<br>
    `mydb = mysql.connector.connect(host="localhost", user="root", passwd='root')`
 
-Now you can use this software to manage your customer details in MySQL database.
+6) After following all the above steps, open the 'main.py' file to run the software program in your computer and to manage your customer details in MySQL database.
 
-Also, when you run the project file it will ask for Password in the Software's Verification Window which is `admin@123`
+Note: When you run the program file, it will ask for Password in the Software's Verification Window. Enter this password: `admin@123` and click on verify button.
 (You can change this password by finding and replacing the text-"admin@123" in the 'main.py' file)
