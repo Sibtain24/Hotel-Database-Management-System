@@ -8,18 +8,22 @@ This is a program made using Python and MySQL to manage the data of Customers Ch
 # Instructions to use this Program or Application
 
 1) First of all make sure you have both Python and MySQL installed in your Computer. (Both applications can be downloaded from their respective Official Websites)
+
+2) Next step is to download a module called mysql.connecto. For that, open Windows Terminal and type this: `pip install mysql-connector-python`
+
+3) Now, open the 'main.py' file in Python IDLE or Visual Studio Code.Find the following line in 'main.py' file and change the Username (user) and Password (passwd) to your MySQL Client app username & password:<br>
+   `mydb = mysql.connector.connect(host="localhost", user="root", passwd='root')` [Save the file using "Ctrl + S" keyboard shortcut.]
    
-2) Then, open your MySQL Command Line Application and create a database in mySQL with name - "hotel_dbms". Or Copy and Paste this: `create database hotel_dbms`
+4) Then, open your MySQL Command Line Application and create a database in mySQL with name - "hotel_dbms". Or Copy and Paste this: `create database hotel_dbms;`
 
-3) Then, Copy and Paste this: `use hotel_dbms`
+5) Then, Copy and Paste this: `use hotel_dbms;`
 
-4) After that, Copy and Paste the following text: <br>
+6) After that, Copy and Paste the following text: <br>
   `create table info (GuestNo integer(4), GuestName varchar(30), Age integer(3), Gender varchar(6), Address varchar(80), ContactNo bigint(10), RoomNo integer(4), CheckinDate date, CheckoutDate date);`
 
-5) Find the following line in 'main.py' file and change the Username (user) and Password (passwd) to your MySQL Client app username & password:<br>
-   `mydb = mysql.connector.connect(host="localhost", user="root", passwd='root')`
+7) After following all the above steps, open the 'main.py' file to run the software program in your computer and to manage your customer details in MySQL database.
 
-6) After following all the above steps, open the 'main.py' file to run the software program in your computer and to manage your customer details in MySQL database.
+To know about how to manage data, refer to the "How-to" Guide below:
 
 Note: When you run the program file, it will ask for Password in the Software's Verification Window. Enter this password: `admin@123` and click on verify button.
 (You can change this password by finding and replacing the text-"admin@123" in the 'main.py' file)
