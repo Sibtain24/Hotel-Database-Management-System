@@ -9,14 +9,14 @@ This is a program made using Python and MySQL to manage the data of Customers Ch
 
 1) First of all make sure you have both Python and MySQL installed in your Computer. (Both applications can be downloaded from their respective Official Websites)
 
-2) Next step is to download a module called mysql.connector. For that, open Windows Terminal and type this: `pip install mysql-connector-python`
+2) Next step is to download a module called mysql.connector. For that, open Windows Terminal and type this:<br>`pip install mysql-connector-python`
 
 3) Now, open the 'main.py' file in Python IDLE or Visual Studio Code. Find the following line in 'main.py' file and change the Username (user) and Password (passwd) to your MySQL Client app username & password:<br>
    `mydb = mysql.connector.connect(host="localhost", user="root", passwd='root')` <br> [ And save the file using "Ctrl + S" keyboard shortcut.]
 
 4) If you want to connect an online MySQL Server, change the host name (host), username (user) and password (passwd) in the 'main.py' file and save the file using 'Ctrl + S' keyboard shortcut.
 
-5) Then, open your MySQL Command Line Application and create a database in mySQL with name - "hotel_dbms". Or Copy and Paste this: `create database hotel_dbms;`
+5) Then, open your MySQL Command Line Application and create a database in mySQL with name - "hotel_dbms". Or Copy and Paste this:<br>`create database hotel_dbms;`
 
 6) Then, Copy and Paste this: `use hotel_dbms;`
 
