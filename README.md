@@ -18,7 +18,7 @@ This is a program made using Python and MySQL to manage the data of Customers Ch
 
 5) Then, open your MySQL Command Line Application and create a database in mySQL with name - "hotel_dbms". Or Copy and Paste this:<br>`create database hotel_dbms;`
 
-6) Then, Copy and Paste this: `use hotel_dbms;`
+6) Then, Copy and Paste this: `use hotel_dbms`
 
 7) After that, Copy and Paste the following text: <br>
   `create table info (GuestNo integer(4), GuestName varchar(30), Age integer(3), Gender varchar(6), Address varchar(80), ContactNo bigint(10), RoomNo integer(4), CheckinDate date, CheckoutDate date);`
