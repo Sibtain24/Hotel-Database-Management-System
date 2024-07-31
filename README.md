@@ -5,27 +5,29 @@ Project by - @Sibtain24
 
 This is a program made using Python and MySQL to manage the data of Customers Checking-in to a hotel. This program provides an user-friendly UI to the user and provides functionality to Add, Update, Delete, View and Search the details of all the Customers present in the MySQL database. This program uses Python's Tkinter module to create the Graphical User Interface (GUI) and uses MySQL Client app to store data in the backend. It is a fully functional program with a good UI. To use this program, refer to the instructions below:
 
-# Instructions to use this Program or Application
+# Instructions to use this Program or Application:
 
 1) First of all make sure you have both Python and MySQL installed in your Computer. (Both applications can be downloaded from their respective Official Websites)
 
-2) Next step is to download a module called mysql.connecto. For that, open Windows Terminal and type this: `pip install mysql-connector-python`
+2) Next step is to download a module called mysql.connector. For that, open Windows Terminal and type this: `pip install mysql-connector-python`
 
-3) Now, open the 'main.py' file in Python IDLE or Visual Studio Code.Find the following line in 'main.py' file and change the Username (user) and Password (passwd) to your MySQL Client app username & password:<br>
-   `mydb = mysql.connector.connect(host="localhost", user="root", passwd='root')` [Save the file using "Ctrl + S" keyboard shortcut.]
-   
-4) Then, open your MySQL Command Line Application and create a database in mySQL with name - "hotel_dbms". Or Copy and Paste this: `create database hotel_dbms;`
+3) Now, open the 'main.py' file in Python IDLE or Visual Studio Code. Find the following line in 'main.py' file and change the Username (user) and Password (passwd) to your MySQL Client app username & password:<br>
+   `mydb = mysql.connector.connect(host="localhost", user="root", passwd='root')` <br> [ And save the file using "Ctrl + S" keyboard shortcut.]
 
-5) Then, Copy and Paste this: `use hotel_dbms;`
+4) If you want to connect an online MySQL Server, change the host name (host), username (user) and password (passwd) in the 'main.py' file and save the file using 'Ctrl + S' keyboard shortcut.
 
-6) After that, Copy and Paste the following text: <br>
+5) Then, open your MySQL Command Line Application and create a database in mySQL with name - "hotel_dbms". Or Copy and Paste this: `create database hotel_dbms;`
+
+6) Then, Copy and Paste this: `use hotel_dbms;`
+
+7) After that, Copy and Paste the following text: <br>
   `create table info (GuestNo integer(4), GuestName varchar(30), Age integer(3), Gender varchar(6), Address varchar(80), ContactNo bigint(10), RoomNo integer(4), CheckinDate date, CheckoutDate date);`
 
-7) After following all the above steps, open the 'main.py' file to run the software program in your computer and to manage your customer details in MySQL database.
+8) After following all the above steps, open the 'main.py' file to run the software program in your computer and to manage your customer details in MySQL database.
 
 To know about how to manage data, refer to the "How-to" Guide below:
 
-# How to Use the Program to Manage Database
+# How to Use the Program to Manage Database❓
 
 1) As soon as you run the Program, an encryption windows will appear. Enter the Password and Click on Verify. The password is: `admin@123` (Password can be changed by changing the code in 'main.py' file and saving the file).
 
