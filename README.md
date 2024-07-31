@@ -5,7 +5,7 @@ Project by - @Sibtain24
 
 This is a program made using Python and MySQL to manage the data of Customers Checking-in to a hotel. This program provides an user-friendly UI to the user and provides functionality to Add, Update, Delete, View and Search the details of all the Customers present in the MySQL database. This program uses Python's Tkinter module to create the Graphical User Interface (GUI) and uses MySQL Client app to store data in the backend. It is a fully functional program with a good UI. To use this program, refer to the instructions below:
 
-# Instructions to use this Program or Application:
+# Instructions to Setup & Run this Program:
 
 1) First of all make sure you have both Python and MySQL installed in your Computer. (Both applications can be downloaded from their respective Official Websites)
 
