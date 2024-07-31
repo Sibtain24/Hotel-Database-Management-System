@@ -25,5 +25,20 @@ This is a program made using Python and MySQL to manage the data of Customers Ch
 
 To know about how to manage data, refer to the "How-to" Guide below:
 
-Note: When you run the program file, it will ask for Password in the Software's Verification Window. Enter this password: `admin@123` and click on verify button.
-(You can change this password by finding and replacing the text-"admin@123" in the 'main.py' file)
+# How to Use the Program to Manage Database
+
+1) As soon as you run the Program, an encryption windows will appear. Enter the Password and Click on Verify. The password is: `admin@123` (Password can be changed by changing the code in 'main.py' file and saving the file).
+
+2) After you click on Verify, the main windows of the program will appear. On the Left side of the window you will see Entry Fields to Enter, Update and Delete the data of Customers. And on the Right side you will see the data you enter in a Tabular Format. Just above the Table, there is a 'Search Box', a 'Search Filter', a 'Search Button' and 'Show All Button'.
+
+3) To Add Customer Details in the Database, fill in the Entry Fields and Click on the 'Add Button'. A Message will appear and the data will be added in the database, and details of all customers will appear on the table. (Note: The format to enter dates is 'yyyy-mm-dd')
+
+4) You can change / correct the data using Update function. For that, Left Click on the data of the Customer displaying on the Table to select and then change that data you want to update in the Entry Field and Click on 'Update Button'.
+
+5) To Delete a Customer's details from the data base, Click on the data of the Customer displaying on the Table to select and then Click on the 'Delete Button'.
+
+6) A 'Clear All Button' is also present in below the entry fields. Its function is to Clear all the Entry fields at once.
+
+7) Above the Table, there is a 'Search Filter'(Combo Box), where you can choose what type of data you want to search in the table, and you can enter what you want to search in the 'Search Box'. For Example, you selected 'Age' in the Search Filter, then you Entered '20' in the Search Box, and when you click on the Search Button, the data of all the Customers of Age-20 will display on the table. When you are done searching, Click on the 'Show All Button' to display all the data on the table.
+
+***Thank You for using my Program. Feel free to give your valuable feedback.*** 😊
