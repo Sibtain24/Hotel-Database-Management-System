@@ -11,7 +11,7 @@ This is a program made using Python and MySQL to manage the data of Customers Ch
 
 2) Next step is to download a module called mysql.connector. For that, open Windows Terminal and type this:<br>`pip install mysql-connector-python`
 
-3) Now, open the 'main.py' file in Python IDLE or Visual Studio Code. Find the following line in 'main.py' file and change the Username (user) and Password (passwd) to your MySQL Client app username & password:<br>
+3) Now, download the Source code (zip) file from here: https://github.com/Sibtain24/Hotel-Database-Management-System/releases/tag/v1.0.0 Then extract and open the 'main.py' file in Python IDLE or Visual Studio Code. Find the following line in 'main.py' file and change the Username (user) and Password (passwd) to your MySQL Client app username & password:<br>
    `mydb = mysql.connector.connect(host="localhost", user="root", passwd='root')` <br> [ And save the file using "Ctrl + S" keyboard shortcut.]
 
 4) If you want to connect an online MySQL Server, change the host name (host), username (user) and password (passwd) in the 'main.py' file and save the file using 'Ctrl + S' keyboard shortcut.
